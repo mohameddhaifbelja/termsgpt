@@ -9,7 +9,7 @@ from utils import count_n_tokens
 
 MAX_TOKENS = 3800
 COMPLETIION_TOKENS = 1024
-key = "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"
+key = "
 openai.api_key = key
 
 turbo_llm = ChatOpenAI(openai_api_key=key,
